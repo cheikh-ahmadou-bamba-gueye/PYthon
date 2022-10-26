@@ -1,0 +1,11 @@
+domains = 0 
+#ouverture d'un fichier, second argaument pour "r" read 
+with open ("domains.xml", "r") as file:
+# lesture de toutes les lignes du fichier
+| lignes = file.readlines()
+#comptons le nombre de "domain"
+     for n in lignes:
+        if '"domain"' in n:
+            domains + = 1
+    print(domains)
+            

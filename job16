@@ -1,0 +1,3 @@
+def myfunction(*tous):
+  print(tous)
+ myfunction(8, 8, 8)   

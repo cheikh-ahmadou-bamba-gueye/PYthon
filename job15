@@ -1,0 +1,3 @@
+def myfunction(prenom,nom):
+| print("Bonjour",Bamba,Gueye)
+myfunction("Bamba","Gueye")    

@@ -1,0 +1,18 @@
+#Remplir une liste myList contenant tous ces paramètres.
+#Trier par ordre croissant la liste à l’aide de la fonction sort
+#Afficher la liste dans un terminal
+
+def myfunction( *params ):
+    mylist = []
+
+    for params in params:
+       if isistance(param, (init)):
+
+           mylist.append(param)
+           mylist.sort()
+       else:
+            print("Attention un des parametres n'est pas numerique*)
+
+    print(mylist)
+
+myfunction(3,6,89,78,66,45,2)            

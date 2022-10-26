@@ -1,0 +1,15 @@
+#Écrire un programme triangle.py qui affiche dans le terminal un triangle avec des ‘_’, des
+#‘\’ et des ‘/’
+#en fonction de l’input entré, qui représentera la hauteur.
+#Exemple si l’input entré est 5
+
+left = "/"
+right = "\\"
+base = "_"
+
+hauteur = int(input("hauteur:"))
+
+for i in range(hauteur):
+ print((hauteur - i)* " " + gauche + (( i *2 ) *
+  if i == hauteur - 1:
+  |  print(gauche + bas * hauteur + droite)

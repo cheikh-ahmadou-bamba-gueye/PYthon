@@ -1,0 +1,3 @@
+def myfunction():
+   print("je suis une fonction")
+myfunction()
